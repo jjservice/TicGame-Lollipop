@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    background-color: rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 2px 10px lightcoral;
+    padding: 10px;
+    border-radius: 100%;
+    width: 360px;
+    margin: 0%auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+h4{
+    color: darkgray;
+    text-shadow: 2px 2px 2px darkblue;
+    background-color: rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 2px 10px lightcoral;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0%auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#statusText{
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    background-color: rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 2px 10px lightcoral;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 180px;
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.cell{
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    border: 4px solid rgba(135, 206, 250, 0.89);
+    box-shadow: 0px 2px 15px rgba(135, 206, 250, 0.89);
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0% auto;
+    margin-bottom: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 139, 0.336);
+}
+#gameContainer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 340px;
+    border-radius: 20px;
+    margin: 0% auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    border: 6px solid rgba(139, 0, 81, 0.432);
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 20px lightcoral;
+    background: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+#restartBtn{
+    border: none;
+    margin: 0% auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    text-shadow: 1px 1px 2px black;
+    border: 2px solid rgba(135, 206, 250, 0.89);
+    box-shadow: 0px 2px 15px rgba(135, 206, 250, 0.89);
+    background-color: rgba(61, 64, 226, 0.671);
+    border-radius: 20px;
+    padding: 10px 10px;
+}
